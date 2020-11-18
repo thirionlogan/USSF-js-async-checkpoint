@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/thirionlogan/USSF-js-async-checkpoint#readme",
   "dependencies": {
+    "chalk": "^4.1.0",
     "node-fetch": "^2.6.1"
   }
 }
