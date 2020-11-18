@@ -9,7 +9,7 @@ fs.readFile(inputFileName, (err, data) => {
   data
     .toString()
     .split("\n")
-    .map((str) => str.trim())
+    .map((str) => str.trim().toLowerCase())
     .forEach((name) => {
       console.log(chalk.black.bgYellow(`Fetching data for ${name}`));
       fetch(`http://pokeapi.co/api/v2/pokemon/${name}`)
