@@ -12,7 +12,7 @@ fs.readFile(inputFileName, (err, data) => {
     .map((str) => str.trim().toLowerCase())
     .forEach((name) => {
       console.log(chalk.black.bgYellow(`Fetching data for ${name}`));
-      fetch(`http://pokeapi.co/api/v2/pokemon/${name}`)
+      fetch(`http://pokeapi.co/api/v2/pokemon/${encodeURIComponent(name)}`)
         .then((res) => res.json())
         .then((pokeData) => {
           console.log(
