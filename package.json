@@ -1,16 +1,20 @@
 {
   "name": "ussf-js-async-checkpoint",
   "version": "1.0.0",
-  "description": "",
+  "description": "This is an app that takes in a file with a list of pokemon and outputs a file with a list of those pokemon and their types.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/thirionlogan/USSF-js-async-checkpoint.git"
   },
-  "author": "",
+  "contributors": [
+    "Logan Thirion",
+    "Kendra Hill-Daughton",
+    "Morian Senador"
+  ],
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/thirionlogan/USSF-js-async-checkpoint/issues"
